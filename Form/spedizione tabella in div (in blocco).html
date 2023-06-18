@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>form spedizione</title>
+</head>
+<body>
+<table border="0">
+
+    <form method="post" action="https://postb.in/1687092175664-4327006037347" id="delivery" autocomplete="on">
+
+        <div style="display: inline">
+            <div style="display: inline">Campo</div>
+        </div>
+
+        <div>
+            <div style="display: inline">
+                <label for="name">Nome</label>
+                <input id="name" type="text" name="name" placeholder="nome" required>
+            </div>
+        </div>
+
+        <div>
+            <div style="display: inline">
+                <label for="lastname">Cognome</label>
+                <input id="lastname" type="text" name="lastname" placeholder="cognome" required>
+            </div>
+        </div>
+
+        <div>
+            <div style="display: inline">
+                <label for="address">Indirizzo</label>
+                <input id="address" type="text" name="address" placeholder="indirizzo" required>
+            </div>
+        </div>
+
+        <div>
+            <div style="display: inline">
+                <label for="po">Civico</label>
+                <input id="po" type="number" name="po" placeholder="1">
+            </div>
+        </div>
+
+        <div>
+            <div style="display: inline">
+                <label for="cap">Cap</label>
+                <input id="cap" type="number" name="cap" placeholder="00000" required>
+            </div>
+        </div>
+
+        <div>
+            <div style="display: inline">
+                <label for="province">Provincia</label>
+                <select id="province" name="province" required>
+                    <option value="RM">Roma</option>
+                    <option value="MI">Milano</option>
+                    <option value="TO">Torino</option>
+                    <option value="OTHER" selected>Altro</option>
+                </select>
+            </div>
+        </div>
+
+        <div>
+            <div style="display: inline">
+                <label for="city">Città</label>
+                <input id="city" type="text" name="city" placeholder="Roma" required>
+            </div>
+        </div>
+
+        <div>
+            <div style="display: inline">
+                <label for="country">Nazione</label>
+                <input id="country" type="text" name="name" placeholder="Italia" required>
+            </div>
+        </div>
+
+        <div>
+            <div style="display: inline">
+                <label for="phone">Telefono</label>
+                <input id="phone" type="text" name="phone" placeholder="3330000000" required>
+            </div>
+        </div>
+
+        <div>
+            <div style="display: inline">
+                <label for="email">Email</label>
+                <input id="email" type="text" name="email" placeholder="tua@esercitazione.it">
+            </div>
+        </div>
+
+        <div>
+            <div style="display: inline">
+                <label for="note">Note</label>
+                <textarea id="note" name="note" cols="30" rows="10"></textarea>
+                <input type="submit" value="Invia">
+            </div>
+        </div>
+
+        <div>
+            <div style="display: inline">
+                <button type="reset" form="delivery">Reset</button>
+            </div>
+        </div>
+
+    </form>
+
+</table>
+</body>
+</html>
